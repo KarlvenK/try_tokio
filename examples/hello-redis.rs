@@ -1,9 +1,5 @@
 use mini_redis::{client, Result};
 
-async fn say_world() {
-    println!("world");
-}
-
 #[tokio::main]
 async fn main() -> Result<()> {
     // Open a connection to the mini-redis address.
